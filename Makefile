@@ -34,8 +34,7 @@ SRCS =	src/ft_atoi.c		\
 		src/ft_substr.c		\
 		src/ft_tolower.c	\
 		src/ft_toupper.c	\
-
-BONUS =	src/ft_lstadd_back.c	\
+		src/ft_lstadd_back.c	\
 		src/ft_lstdelone.c		\
 		src/ft_lstmap.c			\
 		src/ft_lstadd_front.c	\
@@ -51,8 +50,6 @@ FLAGS = -Wall -Wextra -Werror
 
 OBJ = $(SRCS:.c=.o)
 
-BOBJ = $(BONUS:.c=.o)
-
 RM = rm -f
 
 .c.o:
@@ -63,12 +60,8 @@ all: $(NAME)
 $(NAME): $(OBJ) 
 		ar rc $(NAME) $(OBJ)
 
-bonus: $(OBJ) $(BOBJ) 
-	ar rc $(NAME) $(OBJ) $(BOBJ)
-
 clean: 
 	$(RM) $(OBJ)
-	$(RM) $(BOBJ)
 
 fclean: clean
 	$(RM) libft.a
