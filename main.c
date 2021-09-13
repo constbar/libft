@@ -1,9 +1,19 @@
 #include "libft.h"
 #include <stdio.h>
 
-// some functions tests
 int main() {
 
-	
+	char a = 'a';
+	printf("\'a\' to upper %c\n", ft_toupper(a));
+
+	char *str = "hola todos";
+	char *new_str = ft_strdup(str);
+	printf("new_str is %s\n", new_str);
+
+	char *cmp_str = "to compare";
+	int is_same = ft_strncmp(cmp_str, new_str, 4);
+	printf("first 3 leters are equal? %d\n", !is_same);
+
+	free(new_str);
 	return 0;
 }
