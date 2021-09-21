@@ -58,4 +58,4 @@ gcc main.c -L. libft.a
 | ft_lstdelone | takes as a parameter an element and frees the memory of the element’s content |
 | ft_lstclear | deletes and frees the given element and every successor of that element |
 | ft_lstiter | iterates the list and appllies the given function to the content of each element |
-| ft_lstmap | iterates the list and appllies the function to the content of each element. creates a new list resulting of the successive applications of the function |
+| ft_lstmap | iterates the list and appllies the function to the content of each element |
