@@ -1,8 +1,8 @@
 #include "libft.h"
 #include <stdio.h>
 
-int main() {
-
+int main()
+{
 	char a = 'a';
 	printf("ft_toupper: \'a\' to \'%c\'\n", ft_toupper(a));
 
