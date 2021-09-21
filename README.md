@@ -50,7 +50,7 @@ gcc main.c -L. libft.a
 | ft_putstr_fd | outputs the string to the given file descriptor |
 | ft_putendl_fd | outputs the string to the given file descriptor, followed by a newline |
 | ft_putnbr_fd | outputs the integer to the given file descriptor |
-| ft_lstnew | returns a new element. the variable 'content' is initialized with the value of the parameter 'content' |
+| ft_lstnew | returns a new element. the variable 'content' is initialized with the value of the parameter |
 | ft_lstadd_front | add new element at beginning of the list |
 | ft_lstsize | counts the number of elements in a list |
 | ft_lstlast | returns the last element of list |
