@@ -1,6 +1,6 @@
 ## libft
 
-project of school 42 where it is necessary to implement own library of some functions from ctype.h, stdlib.h, string.h libraries in C.
+project of 42 school where it is necessary to implement own library of some functions from ctype.h, stdlib.h, string.h libraries in C.
 
 the functions work just like the original functions from the standard library.
 
