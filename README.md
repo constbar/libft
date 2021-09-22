@@ -16,7 +16,7 @@ gcc main.c -L. libft.a
 ### functions list
 |  function | description |
 | ------------ | ------------ |
-| ft_atoi | converts ASCII string to an integer |
+| ft_atoi | converts ascii string to an integer |
 | ft_strlen | returns size of a string |
 | ft_strlcpy | copies up to size characters from src to dst |
 | ft_strlcat | appends src to the end of dst |
