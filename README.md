@@ -1,10 +1,10 @@
 ## libft
 
-project of 42 school where it is necessary to implement own library of some functions from ctype.h, stdlib.h, string.h libraries in C.
+project of École 42 where it is necessary to implement own library of some functions from ctype.h, stdlib.h, string.h libraries in C.
 
 the functions work just like the original functions from the standard library.
 
-the project was made in accordance with the school design code standard in the C language.
+the project was made in accordance with the school design code standard in C language.
 
 ### how to use
 ```
